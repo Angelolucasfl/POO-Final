@@ -9,11 +9,6 @@ public class Band extends Artist {
 		this.estiloMusical = estiloMusical;
 	}
 
-	@Override
-	public void realizarApresentacao() {
-		System.out.println("A banda " + getNome() + " está performando.");
-		
-	}
 
 	public String getEstiloMusical() {
 		return estiloMusical;

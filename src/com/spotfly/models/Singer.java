@@ -9,11 +9,6 @@ public class Singer extends Artist {
 		this.estiloMusical = estiloMusical;
 	}
 
-	@Override
-	public void realizarApresentacao() {
-		System.out.println("O cantor " + getNome() + " está performando.");
-		
-	}
 
 	public String getEstiloMusical() {
 		return estiloMusical;
